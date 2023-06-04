@@ -1,5 +1,5 @@
 const TransactionHistory = props => {
-    const {itemsArr}=props;
+    const {items}=props;
   return (
     <table className="transaction-history">
       <thead>
@@ -11,7 +11,7 @@ const TransactionHistory = props => {
       </thead>
 
       <tbody>
-        {itemsArr.map(elem => {
+        {items.map(elem => {
           return (
             <tr key={elem.id}>
               <td>{elem.type}</td>
