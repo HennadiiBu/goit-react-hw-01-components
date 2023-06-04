@@ -1,0 +1,32 @@
+table {
+  border: 1px solid #ccc;
+}
+tr {
+  border: 1px solid #ccc;
+}
+td,
+th {
+  border: 1px solid #ccc;
+}
+
+th {
+  background-color: darkcyan;
+  color: white;
+}
+
+tr:nth-child(1n){
+    background-color:white;
+}
+
+tr:nth-child(2n){
+    background-color:#ccc;
+}
+
+.transaction_history {
+  table-layout: fixed;
+  border-collapse: collapse;
+
+  width: 600px;
+
+  text-align: center;
+}

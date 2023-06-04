@@ -1,7 +1,10 @@
+import style from './transactionsHistory.module.css'
+import PropTypes from "prop-types";
+
 const TransactionHistory = props => {
     const {items}=props;
   return (
-    <table className="transaction-history">
+    <table className={style.transaction_history}>
       <thead>
         <tr>
           <th>Type</th>
@@ -24,5 +27,12 @@ const TransactionHistory = props => {
     </table>
   );
 };
+
+TransactionHistory.propTypes={
+id:PropTypes.number,
+type:PropTypes.string,
+amount:PropTypes.number,
+currency:PropTypes.number
+}
 
 export default TransactionHistory;
