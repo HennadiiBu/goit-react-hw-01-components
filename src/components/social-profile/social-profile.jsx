@@ -44,4 +44,4 @@ UserProfile.propTypes = {
   }).isRequired,
 };
 
-export default UserProfile;
+export default UserProfile ;
