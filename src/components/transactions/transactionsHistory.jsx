@@ -1,4 +1,4 @@
-import style from './transactionsHistory.module.css'
+import style from './TransactionsHistory.module.css'
 import PropTypes from "prop-types";
 
 const TransactionHistory = props => {
@@ -29,7 +29,7 @@ const TransactionHistory = props => {
 };
 
 TransactionHistory.propTypes={
-id:PropTypes.number,
+id:PropTypes.number.isRequired,
 type:PropTypes.string,
 amount:PropTypes.number,
 currency:PropTypes.number

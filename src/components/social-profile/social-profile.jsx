@@ -1,4 +1,4 @@
-import style from './social-profile.module.css'
+import style from './Social-profile.module.css'
 import PropTypes from "prop-types";
 
 const UserProfile = ({username,tag,location,avatar,stats:{followers,likes, views}})=>{
@@ -37,7 +37,7 @@ UserProfile.propTypes= {
   tag: PropTypes.string,
   location: PropTypes.string,
   avatar:PropTypes.string,
-  stats:PropTypes.object,
+  stats:PropTypes.objectOf(PropTypes.number),
 }
 
 export default UserProfile;

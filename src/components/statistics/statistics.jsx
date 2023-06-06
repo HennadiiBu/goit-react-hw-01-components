@@ -1,4 +1,4 @@
-import style from './statistics.module.css'
+import style from './Statistics.module.css'
 import {getRandomHexColor} from 'utils/random-color';
 import PropTypes from "prop-types";
 
@@ -21,7 +21,7 @@ const Statistics = ({ title = '', stats }) => {
 };
 
 Statistics.propTypes={
-  id: PropTypes.number,
+  id: PropTypes.number.isRequired,
   label: PropTypes.string,
   percentage: PropTypes.number
 }

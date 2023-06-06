@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import UserProfile from './components/social-profile/social-profile';
-import Statistics from 'components/statistics/statistics';
-import FriendList from 'components/friends/friends';
-import TransactionHistory from 'components/transactions/transactionsHistory';
+import UserProfile from './components/Social-profile/Social-profile';
+import Statistics from './components/Statistics/Statistics';
+import FriendList from './components/Friends/Friends';
+import TransactionHistory from './components/Transactions/TransactionsHistory';
 
 import user from './path/user.json';
 import data from './path/data.json';
